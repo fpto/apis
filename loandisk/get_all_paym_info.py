@@ -10,8 +10,6 @@ public_key = 8801
 api_url_base = 'https://api.loandisk.org/'
 branch_id = 10573
 
-########
-repayment_id = 914004
 
 headers = {'Content-Type': 'application/json','Authorization': 'Basic {0}'.format(api_token)}
 
@@ -57,4 +55,4 @@ else:
     print('[!] Request Failed')
 
 
-todos_pagos.to_excel('pagos_madres_prestamos_2019_10_29_con_devs18.xlsx', index=False, sheet_name='prestamos')
+todos_pagos.to_excel('pagos_madres_prestamos_2020_2_13_con_devs18.xlsx', index=False, sheet_name='prestamos')
